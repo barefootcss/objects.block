@@ -1,0 +1,99 @@
+// 
+// Declarations  
+// ========================================================================== 
+
+// 
+// Features:
+// 
+
+$bare-block--xs:					false !default;
+$bare-block--s:						false !default;
+$bare-block--l:						false !default;
+$bare-block--xl:					false !default;
+$bare-block--flush:				    false !default;
+
+/* 
+   #block
+   ========================================================================== */
+
+/**
+ * The block object stacks an image on top of text.
+ *
+ * Usage:
+ *
+ * <p class="o-block">
+ *
+ *     <img class="o-block__image">
+ *
+ *     Text
+ *
+ * </p>
+ */
+
+.o-block {
+	display: block;
+}
+
+	.o-block__image {
+		margin-bottom: bareRem($bare-sp-m);
+	}
+
+// 
+// #block--xs
+// ========================================================================== 
+
+@if ($bare-block--xs == true) {
+
+    .o-block--xs > .o-block__image {
+    	margin-bottom: bareRem($bare-sp-xs);
+    }
+
+}
+
+// 
+// #block--s
+// ========================================================================== 
+
+@if ($bare-block--s == true) {
+
+    .o-block--s > .o-block__image {
+    	margin-bottom: bareRem($bare-sp-s);
+    }
+
+}
+
+// 
+// #block--l
+// ========================================================================== 
+
+@if ($bare-block--l == true) {
+
+    .o-block--l > .o-block__image {
+    	margin-bottom: bareRem($bare-sp-l);
+    }
+
+}
+
+// 
+// #block--xl
+// ========================================================================== 
+
+@if ($bare-block--xl == true) {
+
+    .o-block--xl > .o-block__image {
+    	margin-bottom: bareRem($bare-sp-xl);
+    }
+
+}
+
+// 
+// #block--flush
+// ========================================================================== 
+
+@if ($bare-block--flush == true) {
+
+    .o-block--flush > .o-block__image {
+    	margin-bottom: 0;
+    }
+
+}
