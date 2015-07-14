@@ -70,7 +70,7 @@ The `block--xl` option applies an extra-large bottom margin between the image an
 	  
 	</div>
 	
-	**block--flush**
+**block--flush**
 
 The `block--xl` option applies removes the margin between the image and text.
 
