@@ -1,0 +1,28 @@
+{
+  "name": "bare-block",
+  "version": "1.0.0",
+  "authors": [
+    "Eric Harms <barefoot.css@gmail.com>"
+  ],
+  "description": "The block object stacks an image above text.",
+  "main": "_objects.block.scss",
+  "keywords": [
+    "barefoot",
+    "oocss",
+    "css",
+    "framework"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/barefootcss/objects.block",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bare-defaults": "^1.0.0",
+    "bare-functions": "^1.0.0"
+  }
+}
